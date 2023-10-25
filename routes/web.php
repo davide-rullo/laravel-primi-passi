@@ -18,3 +18,8 @@ Route::get('/', function () {
     $username = 'Davide';
     return view('welcome', compact('message', 'username'));
 });
+
+Route::get('about', function () {
+
+    return view('about');
+});

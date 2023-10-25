@@ -33,7 +33,7 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="{{ route('about') }}">About</a>
                         <a class="nav-link" href="#">Pricing</a>
                     </div>
                 </div>
@@ -50,6 +50,7 @@
     <div class="container text-center p-5">
         <h1>Hello world!</h1>
         <h2>{{$message}} {{$username}}</h2>
+
     </div>
 
 

@@ -29,9 +29,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link " aria-current="page" href="#">Home</a>
+                        <a class="nav-link " aria-current="page" href="{{ route('home') }}">Home</a>
                         <a class="nav-link active" href="{{ route('about') }}">About</a>
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="{{ route('partners') }}">Partners</a>
                     </div>
                 </div>
             </div>

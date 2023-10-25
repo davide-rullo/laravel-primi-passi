@@ -34,7 +34,7 @@
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                         <a class="nav-link" href="{{ route('about') }}">About</a>
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="{{ route('partners') }}">Partners</a>
                     </div>
                 </div>
             </div>

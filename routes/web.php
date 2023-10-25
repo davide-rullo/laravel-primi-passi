@@ -17,9 +17,14 @@ Route::get('/', function () {
     $message = 'Welcome';
     $username = 'Davide';
     return view('welcome', compact('message', 'username'));
-});
+})->name('home');
 
 Route::get('about', function () {
 
     return view('about');
 })->name('about');
+
+Route::get('partners', function () {
+
+    return view('partners');
+})->name('partners');
